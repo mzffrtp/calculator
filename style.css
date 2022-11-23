@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 2rem;
+    background-color:rgb(218, 243, 207);
+    background-image: url(/iceland.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+}
+
+.calculator{
+    border: 5px solid rgb(232, 201, 143);
+    border-radius: 5px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.calInput{
+    width: 100%;
+    font-size: 4rem;
+    height: 80px;
+    border: none;
+    background-color: azure;
+    text-align: right;
+    padding: 0 20px;
+}
+
+button {
+    height: 75px;
+    background-color: yellow;
+    border-radius: 3px;
+    border: 5px solid greenyellow;
+    font-size: 2.5rem;
+    color: grey;
+    
+}
+
+button:hover{
+    background-color: blanchedalmond;
+}
+
+.calculatorKeys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 5px;
+}
+
+.operator{
+    color: red;
+}
+
+.operator:hover{
+    background-color: rgb(235, 174, 174);
+}
+
+.clearSign {
+    background-color: rgb(148, 237, 148);
+}
+
+
+.clearSign:hover {
+    background-color: rgb(231, 141, 240);
+}
+
+.equalSign{
+    background-color: rgb(142, 242, 209);
+    grid-area: 2/4/6/5;
+    height: auto;
+}
+
+
+
+
